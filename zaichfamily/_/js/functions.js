@@ -4,10 +4,7 @@
 
 /* trigger when page is ready */
 $(document).ready(function (){
-	alert("I am an alert box!");
 	
-	
-
 });
 
 
@@ -20,4 +17,3 @@ $(window).resize(function() {
 	
 });
 
-*/

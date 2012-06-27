@@ -1,10 +1,18 @@
 <div id="sidebar">
+	
+
+	<h3>Categories</h3>
+	<ul>
+	   <?php wp_list_categories('show_count=1&title_li=&show_option_all'); ?>
+	</ul>
+	
+	
 
     <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar Widgets')) : else : ?>
     
-        <!-- All this stuff in here only shows up if you DON'T have any widgets active in this zone -->
+       <!-- <!-- All this stuff in here only shows up if you DON'T have any widgets active in this zone --*>
 
-    	<?php get_search_form(); ?>
+    	
     
     	<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
     
@@ -15,7 +23,7 @@
         
         <h2>Categories</h2>
         <ul>
-    	   <?php wp_list_categories('show_count=1&title_li='); ?>
+    	   <?php wp_list_categories('show_count=1&title_li=&show_option_all'); ?>
         </ul>
         
     	<?php wp_list_bookmarks(); ?>
@@ -32,8 +40,9 @@
     	<ul>
     		<li><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a></li>
     		<li><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a></li>
-    	</ul>
+    	</ul>-->
 	
 	<?php endif; ?>
+	<?php get_search_form(); ?>
 
 </div>
