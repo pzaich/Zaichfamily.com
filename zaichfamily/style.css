@@ -291,13 +291,27 @@ em{ font-family: MuseoSlabItalic, sans-serif;}
 }
 
 .post {}
-.single h1{
+.entry-title{
 	color: #fff;
 }
 
 .entry-content {}
 .entry-content a {}
 .entry-content a:hover {}
+
+.entry-content ul{
+	padding-left: 40px;
+	list-style: disc;
+}
+
+.entry-content li{
+	margin-bottom: 10px;
+}
+
+.entry-content ol{
+	padding-left: 40px;
+	list-style: decimal;
+}
 
 .entry-content img{
 	margin-bottom: 10px;

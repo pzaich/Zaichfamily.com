@@ -2,7 +2,7 @@
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h2 class="entry-title"><?php the_title(); ?></h2>
 		
 		<div class="article-wrapper">	
 			<article <?php post_class() ?> id="post-<?php the_ID(); ?>">

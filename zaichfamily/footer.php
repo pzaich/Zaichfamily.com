@@ -14,13 +14,10 @@
 <!-- this is where we put our custom functions -->
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
 
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
-<script>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_setAccount', 'UA-33032033-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -29,9 +26,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
--->
-	
+</script>	
 </body>
 
 </html>
